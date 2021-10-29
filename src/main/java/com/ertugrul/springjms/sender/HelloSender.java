@@ -6,13 +6,11 @@ import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import lombok.RequiredArgsConstructor;
 import org.springframework.jms.core.JmsTemplate;
-import org.springframework.jms.core.MessageCreator;
 import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Component;
 
 import javax.jms.JMSException;
 import javax.jms.Message;
-import javax.jms.Session;
 import java.util.UUID;
 
 @RequiredArgsConstructor
